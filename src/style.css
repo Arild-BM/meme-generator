@@ -39,7 +39,8 @@ main {
     display: grid;
     grid-template: 40px 40px / 1fr 1fr;
     gap: 17px;
-    margin-bottom: 17px;
+    max-width: 800px;
+    margin: auto auto 17px;
 }
 
 .form--input {
@@ -61,10 +62,12 @@ main {
 
 .meme {
     position: relative;
+    display: flex;
+    justify-content: center;
 }
 
 .meme--image {
-    max-width: 100%;
+    max-width: 800px;
     border-radius: 3px;
 }
 
